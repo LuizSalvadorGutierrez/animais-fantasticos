@@ -3,7 +3,7 @@ export default class Accordion {
     this.accordionList= document.querySelectorAll(list)
     this.activeClass = 'ativo'
   }
-  
+  // listar item
   toggleAccordion(item) {
     item.classList.toggle(this.activeClass)
     item.nextElementSibling.classList.toggle(this.activeClass)
@@ -14,7 +14,7 @@ export default class Accordion {
       item.addEventListener('click', () => this.toggleAccordion(item))
     })
   }
-  // iniciar função
+  // iniciar função com init()
   init() {
     if (this.accordionList.length) {
       // ativar primeiro item
