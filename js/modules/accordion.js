@@ -14,7 +14,7 @@ export default class Accordion {
       item.addEventListener('click', () => this.toggleAccordion(item))
     })
   }
-  // iniciar função
+  // iniciar função com init()
   init() {
     if (this.accordionList.length) {
       // ativar primeiro item

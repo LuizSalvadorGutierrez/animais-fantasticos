@@ -16,6 +16,7 @@ scrollSuave.init()
 const accordion = new Accordion('[data-anime="accordion"] dt')
 accordion.init()
 
+
 initTabNav();
 initModal();
 initTooltip();
