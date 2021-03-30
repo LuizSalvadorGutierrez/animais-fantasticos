@@ -23,4 +23,3 @@ export default class Accordion {
     }
   }
 }
-console.log('teste de hoje')
