@@ -3,7 +3,7 @@ export default class Accordion {
     this.accordionList= document.querySelectorAll(list)
     this.activeClass = 'ativo'
   }
-  
+  // listar item
   toggleAccordion(item) {
     item.classList.toggle(this.activeClass)
     item.nextElementSibling.classList.toggle(this.activeClass)
